@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  font-family: "Kanit", sans-serif;
+}
+
+::selection {
+  background-color: #00ffff;
+}
+
+#learn-more, #blog {
+  cursor: not-allowed;
+}
+
+/* at 991 */
+@media screen and (max-width: 991px) {
+  .hero {
+    justify-content: center;
+  }
+  .text-hero {
+    text-align: center;
+  }
+}
