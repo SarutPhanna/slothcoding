@@ -15,9 +15,24 @@ body {
   background-color: #00ffff;
 }
 
-#learn-more, #blog {
+#learn-more,
+#blog {
   cursor: not-allowed;
 }
+
+.skill svg {
+  margin: 0 20px;
+}
+
+.codepen:hover {
+  border-bottom: solid 3px #ff0000;
+}
+
+.skill svg:hover {
+  transform: scale(1.05);
+  filter: brightness(1.2);
+}
+
 
 /* at 991 */
 @media screen and (max-width: 991px) {
@@ -27,4 +42,8 @@ body {
   .text-hero {
     text-align: center;
   }
+  .skill svg {
+    margin: 10px;
+  }
 }
+
